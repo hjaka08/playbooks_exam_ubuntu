@@ -1,0 +1,5 @@
+[remote_servers]
+0.0.0.0 ansible_connection=ssh ansible_user=hyunjun
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3

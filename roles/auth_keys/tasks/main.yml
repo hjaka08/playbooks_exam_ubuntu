@@ -1,0 +1,8 @@
+---
+
+- name: Copy local file to remote machine(private key)
+  copy: src=/home/ansible_m/sshd/id_rsa dest=/home/hyunjun/.ssh/id_rsa mode=600
+
+- name: copy local file to remote machine(public Key)
+  copy: src=/home/ansible_m/sshd/id_rsa.pub dest=/home/hyunjun/.ssh/id_rsa.pub mode=600
+#tower(로컬)파일 --> 원격머신
